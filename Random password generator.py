@@ -26,7 +26,7 @@ while 1:
                     password = password + password_Char
                 print('Your password is: ', password)
                 print()
-            continue
+            continue   
 
 
         

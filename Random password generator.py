@@ -6,7 +6,7 @@ print()
 print("Random Password Generator")
 print()
 print()
-while 1:
+while 1: 
     question = input("Would you like to generate a random password? (yes or no): ")
     print()
     if question == "no" or question == "n" or question == 'N' or question == 'No' or question == 'NO':

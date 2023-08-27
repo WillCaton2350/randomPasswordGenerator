@@ -3,7 +3,7 @@ import random
 chars = "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
 
 print()
-print("Welcome to Randy's Random Password Generator")
+print("Random Password Generator")
 print()
 print()
 while 1:

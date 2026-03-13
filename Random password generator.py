@@ -24,7 +24,7 @@ while 1:
                 for i in range(0, password_Length):
                     password_Char = random.choice(chars)
                     password = password + password_Char
-                print('Your password is: ', password)
+                print('Current Password: ', password)
                 print()
             continue   
 

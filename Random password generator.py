@@ -3,21 +3,21 @@ import random
 chars = "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
 
 print()
-print("Welcome to Randy's Random Password Generator")
+print("Password Generator")
 print()
 print()
 while 1:
-    question = input("Would you like to generate a random password? (yes or no): ")
+    question = input("Generate a random password? (yes or no): ")
     print()
     if question == "no" or question == "n" or question == 'N' or question == 'No' or question == 'NO':
-        print("Thank you for considering Randy's. Now leaving Randy's random password generator App")
+        print("Exiting...")
         quit()
 
     if question == "yes" or question == "y" or question == 'Y' or question == 'Yes' or question == 'YES':
             print()
-            password_Length = int(input("How long would you like your password to be? (password character length): "))
+            password_Length = int(input("Password character length: "))
             print()
-            num_of_passwords = int(input("How many passwords would you like to create?: "))
+            num_of_passwords = int(input("Number of Passwords: "))
             print()
             for i in range(0, num_of_passwords):
                 password = " "
